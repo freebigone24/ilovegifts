@@ -1,0 +1,134 @@
+body {
+    background-color: #000000; /* Black background */
+    color: #39ff14; /* Neon color */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    background-color: #000000; /* Black background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px #39ff14; /* Neon green shadow */
+    text-align: center;
+}
+
+header h1 {
+    color: #39ff14; /* Neon color */
+    font-size: 24px;
+}
+
+.actions, .settings, .generate {
+    margin-top: 20px;
+}
+
+button, input[type="text"], select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #39ff14; /* Neon border */
+    border-radius: 5px;
+    background-color: #333;
+    color: #39ff14; /* Neon text */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover, input[type="text"]:hover, select:hover {
+    background-color: #444;
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;
+    color: #39ff14; /* Neon color */
+}
+
+input[type="text"]::placeholder {
+    color: #ccc;
+}
+
+.preview {
+    margin-top: 20px;
+}
+
+#subtitlePreview {
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Subtitle Templates */
+.template1 {
+    color: white;
+    font-size: 20px;
+}
+
+.template2 {
+    color: #00ff00;
+    font-size: 20px;
+    text-shadow: 0 0 10px #00ff00;
+}
+
+.template3 {
+    color: #ffcc00;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.template4 {
+    color: #00ccff;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+.template5 {
+    color: #ff69b4;
+    font-size: 20px;
+    background: -webkit-linear-gradient(#ee0979, #ff6a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.template6 {
+    color: #000000;
+    font-size: 20px;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.template7 {
+    color: #9b59b6;
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.template8 {
+    color: #ffcc00;
+    font-size: 20px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-shadow: 2px 2px #ff0000;
+}
+
+.template9 {
+    color: #c0c0c0;
+    font-size: 20px;
+    font-weight: 300;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.template10 {
+    color: #ff0000;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 0 5px #ff0000;
+}

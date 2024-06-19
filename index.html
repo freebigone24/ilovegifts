@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Caption Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Video Caption Generator</h1>
+        </header>
+        <div class="actions">
+            <button id="uploadBtn">Upload Video</button>
+            <input type="file" id="uploadInput" style="display: none;">
+            <input type="text" id="videoLink" placeholder="Paste link">
+        </div>
+        <div class="settings">
+            <div class="setting">
+                <label for="originalLanguage">Video Original Language:</label>
+                <select id="originalLanguage">
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                    <option value="de">German</option>
+                    <option value="zh">Chinese</option>
+                    <option value="ja">Japanese</option>
+                    <option value="ru">Russian</option>
+                    <option value="ar">Arabic</option>
+                    <option value="hi">Hindi</option>
+                    <option value="pt">Portuguese</option>
+                </select>
+            </div>
+            <div class="setting">
+                <label for="translationLanguage">Video Subtitle Translation:</label>
+                <select id="translationLanguage">
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                    <option value="de">German</option>
+                    <option value="zh">Chinese</option>
+                    <option value="ja">Japanese</option>
+                    <option value="ru">Russian</option>
+                    <option value="ar">Arabic</option>
+                    <option value="hi">Hindi</option>
+                    <option value="pt">Portuguese</option>
+                </select>
+            </div>
+            <div class="setting">
+                <label for="captionTemplate">Choose Caption Template:</label>
+                <select id="captionTemplate">
+                    <option value="template1">Template 1: Simple White</option>
+                    <option value="template2">Template 2: Neon Green</option>
+                    <option value="template3">Template 3: Bold Yellow</option>
+                    <option value="template4">Template 4: Shadowed Blue</option>
+                    <option value="template5">Template 5: Gradient Pink</option>
+                    <option value="template6">Template 6: Classic Black</option>
+                    <option value="template7">Template 7: Fancy Purple</option>
+                    <option value="template8">Template 8: Comic Style</option>
+                    <option value="template9">Template 9: Elegant Silver</option>
+                    <option value="template10">Template 10: Modern Red</option>
+                </select>
+            </div>
+        </div>
+        <div class="generate">
+            <button id="generateBtn">Generate Captions</button>
+        </div>
+        <div class="preview">
+            <div id="subtitlePreview" class="template1">This is a subtitle preview.</div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
